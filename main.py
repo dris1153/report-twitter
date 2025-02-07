@@ -106,8 +106,8 @@ def find_twitter_id():
         button_element = driver.find_element(By.CSS_SELECTOR, '[data-testid="ocfEnterTextNextButton"]')
         button_element.click()
                 
-        #wait 5s
-        time.sleep(2)
+        #wait 1s
+        time.sleep(1)
         
         return True
 
