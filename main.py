@@ -108,6 +108,8 @@ def find_twitter_id():
                 
         #wait 5s
         time.sleep(2)
+        
+        return True
 
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
